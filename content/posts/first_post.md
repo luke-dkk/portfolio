@@ -47,3 +47,4 @@ Så ud fra dette, skal mit mål defineres.
 ## 3. Tegn 
 
 Samme problematik igen - hvis jeg ikke har nogen tegn
+test
