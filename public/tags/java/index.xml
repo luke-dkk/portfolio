@@ -11,10 +11,60 @@
     
     <item>
       <title>Find en legeplads introduktion</title>
-      <link>http://localhost:1313/posts/first_post/</link>
+      <link>http://localhost:1313/posts/week_one/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/first_post/</guid>
+      <guid>http://localhost:1313/posts/week_one/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interview Mikkel</title>
+      <link>http://localhost:1313/posts/interview/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/interview/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Introduktion til JPA og første entitet</title>
+      <link>http://localhost:1313/posts/week_two/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/week_two/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sådan læses portfolio-opgaven</title>
+      <link>http://localhost:1313/posts/how_to_read/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/how_to_read/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Samlet abstract, problemformulering og konklusion.</title>
+      <link>http://localhost:1313/posts/all_together/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/all_together/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Uge 3 - JPA relationer</title>
+      <link>http://localhost:1313/posts/week_three/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/week_three/</guid>
       <description></description>
       
     </item>
