@@ -1,5 +1,5 @@
 ---
-title: Samlet abstract, problemformulering og konklusion.
+title: Samlet indledning, problemformulering og konklusion.
 categories: ["projects", "ideas"]
 tags: ["legeplads", "java", "webapp"]
 date: 2026-02-06
