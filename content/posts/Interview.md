@@ -22,7 +22,7 @@ Hvordan ville en “find en legeplads”-applikation bedst fungere for en foræl
 
 Dette interview er gennemført som et semistruktureret interview. Informanten har på forhånd haft adgang til interviewguiden, men interviewet indeholder også spontane opfølgende spørgsmål og refleksioner.
 
-Med udgangspunkt i :contentReference[oaicite:0]{index=0} er interviewformen valgt for at balancere struktur og fleksibilitet. Den semistrukturerede tilgang gør det muligt at arbejde ud fra en interviewguide, samtidig med at intervieweren kan følge op på relevante udsagn og udforske nye perspektiver undervejs.
+Med udgangspunkt i Kvale og Brinkmann(2009) er interviewformen valgt for at balancere struktur og fleksibilitet. Den semistrukturerede tilgang gør det muligt at arbejde ud fra en interviewguide, samtidig med at intervieweren kan følge op på relevante udsagn og udforske nye perspektiver undervejs.
 
 Dette ses i interviewet, hvor flere temaer – såsom håndtering af privat information, ekstra funktioner og udbredelse – opstår spontant i dialogen frem for at være fastlagt på forhånd. Ifølge Kvale og Brinkmann er dette centralt for at opnå dybere indsigt i informantens livsverden.
 
