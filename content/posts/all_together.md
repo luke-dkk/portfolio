@@ -67,4 +67,74 @@ Arbejdet har givet en bedre forståelse for hvordan Java-objekter kan repræsent
 
 Dette danner fundamentet for den videre udvikling af portfolio-projektet, hvor flere entities og mere avanceret datalogik senere kan implementeres.
 
+
+# Uge 3
+
+## Indledning
+
+I denne uge har fokus været på relationer mellem entities i JPA. Hvor arbejdet i tidligere uger primært har handlet om at etablere projektets metodiske ramme gennem SMTTE-modellen samt implementere en første entity med simple CRUD-operationer, har denne uge haft fokus på at udvide datamodellen gennem relationer mellem flere entities.
+
+Arbejdet har blandt andet bestået i at undersøge og implementere forskellige typer relationer i JPA, herunder One-To-Many, Many-To-One og Many-To-Many. Samtidig er DAO-patternet blevet introduceret for at strukturere datalaget i applikationen.
+
+Ugens arbejde understøtter projektets mål om gradvist at opbygge en funktionel backend, hvor data kan struktureres realistisk og håndteres gennem JPA.
+
+---
+
+## Problemformulering
+
+Hvordan kan relationer mellem entities implementeres i JPA, så databasen kan repræsentere mere komplekse sammenhænge mellem data i projektet?
+
+Efter at have etableret en første entity i projektet bliver næste skridt at modellere relationer mellem forskellige typer data. For et system der arbejder med legepladser kan dette eksempelvis være relationer mellem legepladser, faciliteter eller kategorier.
+
+Problemstillingen i denne uge har derfor været at undersøge:
+
+- Hvordan relationer mellem entities implementeres i JPA
+- Hvordan DAO-patternet kan bruges til at strukturere datalaget
+- Hvordan JPQL kan bruges til at hente data fra relaterede entities
+
+---
+
+## Konklusion
+
+I løbet af ugen er der blevet arbejdet med implementering af relationer mellem entities i JPA. Dette har gjort det muligt at modellere mere realistiske datastrukturer i projektet.
+
+Derudover er DAO-patternet blevet introduceret for at skabe en tydelig struktur i datalaget, og JPQL er blevet anvendt til at hente data fra databasen gennem forespørgsler på entities.
+
+Arbejdet i denne uge understøtter dermed projektets overordnede mål om gradvist at udvikle en funktionel backend til portfolio-projektet.
+
+---
+
+# Uge 4
+
+## Indledning
+
+I denne uge har fokus været på data – ikke bare hvordan det gemmes, men hvordan det bevæger sig gennem systemet.
+
+Hvor jeg tidligere primært har arbejdet med entities og database, har jeg nu skullet forholde mig til:
+- hvordan data sendes (JSON)
+- hvordan det struktureres (DTO)
+- og hvordan data kommer udefra (API)
+
+Det har været en uge, hvor backend ikke længere kun føles som “min egen kode”, men som noget der skal kunne snakke med andre systemer.
+
+---
+
+## Problemformulering
+
+Hvordan kan data håndteres i backend, så:
+
+- interne entities ikke eksponeres direkte
+- data fra klient og API’er kan håndteres sikkert
+- og systemet ikke bliver for tæt koblet til eksterne datakilder
+
+---
+
+## Konklusion
+
+I løbet af ugen har jeg arbejdet med at indføre et ekstra lag mellem database og klient gennem DTO’er, samt håndtere JSON som dataformat.
+
+Derudover har jeg arbejdet med at hente data fra en ekstern API og integrere det i mit projekt.
+
+En vigtig erkendelse har været, at backend i høj grad handler om at kontrollere og oversætte data – ikke bare gemme det.
+
 ---
