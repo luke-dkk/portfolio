@@ -1,3 +1,5 @@
+Med udagangspunkt i at præsenteationen lige nu - vil jeg præsentere følgende.
+
 Til min eksamen - der vil jeg antage jeg vil arbejde med uge 3  "JPA relationer og udvidelse af datamodellen"
 
 Årsagsforklaringen ligger heri at mit projekt er sat op på en måde nu, men når der kommer en front-end på, så skal jeg sandsynligvis lave om i mine grundsten.
