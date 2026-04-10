@@ -156,7 +156,7 @@ GET og POST.
 > Det handler om hvordan man strukturerer sine ressourcer
 
 Kort sagt har jeg lært, at et API er en struktur hvor: - routing viser
-relationer\
-- context binder HTTP og kode sammen\
-- statuskoder kommunikerer resultatet\
+relationer
+- context binder HTTP og kode sammen
+- statuskoder kommunikerer resultatet
 - og controlleren bør være så simpel som muligt

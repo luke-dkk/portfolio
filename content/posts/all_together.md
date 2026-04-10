@@ -12,7 +12,7 @@ authors:
 ---
 # Uge 1 
 ## Indledning
-
+[uge 1]({{< ref "week_one.md" >}})
 I den første uge af projektet har fokus været på at etablere et metodisk fundament for arbejdet.  
 Da projektet både fungerer som et udviklingsprojekt og en portfolio, er der blevet taget udgangspunkt i SMTTE-modellen som didaktisk styringsværktøj.
 
@@ -39,6 +39,7 @@ Resultatet af ugens arbejde er derfor ikke et teknisk produkt, men derimod en ra
 # Uge 2
 
 ## Abstract
+[uge 2]({{< ref "week_two.md" >}})
 
 I denne uge har fokus været på at lære grundlæggende arbejde med JPA (Java Persistence API) og forstå hvordan Java-objekter kan kobles til en relationel database. Formålet har været at etablere den første forbindelse mellem applikationen og en PostgreSQL database.
 
@@ -71,6 +72,7 @@ Dette danner fundamentet for den videre udvikling af portfolio-projektet, hvor f
 # Uge 3
 
 ## Indledning
+[uge 3]({{< ref "week_three.md" >}})
 
 I denne uge har fokus været på relationer mellem entities i JPA. Hvor arbejdet i tidligere uger primært har handlet om at etablere projektets metodiske ramme gennem SMTTE-modellen samt implementere en første entity med simple CRUD-operationer, har denne uge haft fokus på at udvide datamodellen gennem relationer mellem flere entities.
 
@@ -107,6 +109,7 @@ Arbejdet i denne uge understøtter dermed projektets overordnede mål om gradvis
 # Uge 4
 
 ## Indledning
+[uge 4]({{< ref "week_four.md" >}})
 
 I denne uge har fokus været på data – ikke bare hvordan det gemmes, men hvordan det bevæger sig gennem systemet.
 
@@ -138,3 +141,42 @@ Derudover har jeg arbejdet med at hente data fra en ekstern API og integrere det
 En vigtig erkendelse har været, at backend i høj grad handler om at kontrollere og oversætte data – ikke bare gemme det.
 
 ---
+# Uge 5
+## Indledning
+[uge 5]({{< ref "week_five.md" >}})
+I denne uge har fokus været på at arbejde med REST og opbygningen af mit API gennem Javalin.
+
+Hvor jeg i sidste uge arbejdede med data og hvordan det bevæger sig gennem systemet, har jeg i denne uge haft fokus på, hvordan denne data eksponeres gennem endpoints.
+
+Det har betydet, at jeg har arbejdet med:
+- routing og endpoints
+- HTTP metoder og statuskoder
+- brugen af Javalins Context objekt
+
+Det har været en uge, hvor backend i højere grad er begyndt at ligne et rigtigt API fremfor bare en samling funktioner.
+
+---
+
+## Problemformulering
+
+Hvordan kan jeg strukturere mit API i Javalin, så:
+
+- endpoints er logisk opbygget og følger REST-principper
+- HTTP metoder og statuskoder bruges korrekt
+- og controller-laget forbliver overskueligt og opdelt i ansvar
+
+---
+
+## Konklusion
+
+I løbet af ugen har jeg arbejdet med at opbygge mit API ved hjælp af Javalin, hvor routing, endpoints og HTTP-metoder spiller en central rolle.
+
+Jeg har fået en bedre forståelse for, hvordan REST ikke kun handler om hvilke metoder man bruger, men hvordan man strukturerer sine ressourcer og endpoints.
+
+Derudover har jeg arbejdet med at holde mine controllers simple og lade dem fungere som et bindeled mellem HTTP og service-laget.
+
+[uge 6]({{< ref "week_six.md" >}})
+
+[uge 7]({{< ref "week_seven.md" >}})
+
+[uge 8]({{< ref "week_eight.md" >}})

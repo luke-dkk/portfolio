@@ -50,7 +50,7 @@
     </item>
     
     <item>
-      <title>Samlet abstract, problemformulering og konklusion.</title>
+      <title>Samlet indledning, problemformulering og konklusion.</title>
       <link>http://localhost:1313/posts/all_together/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       
@@ -65,6 +65,36 @@
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/week_three/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Uge 4 - JSON, DTO og API</title>
+      <link>http://localhost:1313/posts/week_four/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/week_four/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Uge 5 - Javalin, REST og API design</title>
+      <link>http://localhost:1313/posts/week_five/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/week_five/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Uge 6 - Security, JWT og password hashing</title>
+      <link>http://localhost:1313/posts/week_six/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/week_six/</guid>
       <description></description>
       
     </item>

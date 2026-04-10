@@ -128,22 +128,38 @@ JPA understøtter flere relationstyper:
 
 Et eksempel kan være relationen mellem **Playground** og **Facility**.
 
-En legeplads kan have flere faciliteter.
+En legeplads kan ikke have flere faciliteter.
 
 ```java
 @Entity
 public class Playground {
 
+public class Playground {
+
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @Column(name = "id")
+    private Integer id;
 
+    @Column(name = "name", length = 100, nullable = false)
     private String name;
 
-    private String city;
+    @Column(name = "longitude", nullable = false)
+    private double longitude;
 
-    @OneToMany(mappedBy = "playground")
-    private List<Facility> facilities = new ArrayList<>();
+    @Column(name = "latitude", nullable = false)
+    private double latitude;
+
+    @Column(name = "capacity")
+    private Integer capacity;
+
+    @OneToOne(mappedBy = "playground", cascade = CascadeType.ALL, orphanRemoval = true, optional = false)
+    private Facility facility;
+
+    @OneToMany(mappedBy = "playground", cascade = CascadeType.ALL, orphanRemoval = true)
+    @Builder.Default
+    private Set<CheckIn> checkIns = new HashSet<>();
 }
 ```
 # One-To-One relation

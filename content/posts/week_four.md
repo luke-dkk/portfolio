@@ -117,7 +117,6 @@ Det fik mig til at indse, at:
 Hvis man bare kopierer sin entity, så får man ikke rigtig fordelene ved
 at have et ekstra lag.
 
-------------------------------------------------------------------------
 
 ## JSON kræver mere tillid end jeg troede
 
@@ -145,7 +144,6 @@ Det lærte mig, at:
 > man ikke altid skal forvente perfekt data -- men i stedet gøre
 > systemet tolerant
 
-------------------------------------------------------------------------
 
 ## Data ændrer form gennem systemet
 
@@ -166,7 +164,6 @@ Det gjorde det tydeligt, at:
 
 Det afhænger af konteksten.
 
-------------------------------------------------------------------------
 
 ## Logik kan ligge i modellen
 
@@ -188,7 +185,6 @@ Det lærte mig, at:
 
 > entities ikke kun er data -- de kan også indeholde regler
 
-------------------------------------------------------------------------
 
 ## Små valg har stor betydning
 
@@ -205,7 +201,6 @@ Men de har stor betydning for:
 -   struktur\
 -   fleksibilitet
 
-------------------------------------------------------------------------
 
 ## Kort sagt
 
@@ -215,5 +210,3 @@ og ud, men om at kontrollere:
 -   hvad data er\
 -   hvor det kommer fra\
 -   og hvordan det ændrer sig undervejs
-
-------------------------------------------------------------------------

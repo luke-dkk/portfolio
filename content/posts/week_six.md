@@ -27,22 +27,20 @@ Hvor jeg tidligere har arbejdet med data og API-struktur, har jeg nu
 arbejdet med, hvordan man beskytter systemet og kontrollerer adgang til
 det.
 
-Det har betydet, at jeg har arbejdet med: - password hashing\
-- autentificering\
-- autorisation\
+Det har betydet, at jeg har arbejdet med: - password hashing
+- autentificering
+- autorisation
 - og brug af JWT
 
-------------------------------------------------------------------------
 
 ## Problemformulering
 
 Hvordan kan jeg sikre mit API, så:
 
--   brugerdata ikke kompromitteres\
--   passwords håndteres sikkert\
+-   brugerdata ikke kompromitteres
+-   passwords håndteres sikkert
 -   og adgang til endpoints styres korrekt
 
-------------------------------------------------------------------------
 
 ## Konklusion
 
@@ -52,7 +50,6 @@ hashing af passwords og brug af JWT til autentificering.
 Jeg har fået en forståelse for, hvordan adgang kan styres gennem roller,
 og hvordan sikkerhed skal tænkes ind som en del af systemets design.
 
-------------------------------------------------------------------------
 
 # Uddybning
 
@@ -65,35 +62,32 @@ brugere og adgangskontrol.
 
 Det betyder, at sikkerhed nu bliver en central del af backend.
 
-------------------------------------------------------------------------
 
 ### Mål
 
--   Forstå autentificering og autorisation\
--   Implementere password hashing\
--   Arbejde med JWT\
+-   Forstå autentificering og autorisation
+-   Implementere password hashing
+-   Arbejde med JWT
 -   Beskytte endpoints gennem roller
 
-------------------------------------------------------------------------
 
 ### Tegn
 
--   Passwords gemmes ikke som plain text\
--   Brugere kan logge ind og få et token\
--   Endpoints er beskyttet med roller\
+-   Passwords gemmes ikke som plain text
+-   Brugere kan logge ind og få et token
+-   Endpoints er beskyttet med roller
 -   Adgang til data er begrænset
 
-------------------------------------------------------------------------
 
 ### Tiltag
 
--   Implementering af bcrypt hashing\
--   Oprettelse af login funktion\
--   Generering af JWT tokens\
--   Beskyttelse af endpoints\
+-   Implementering af bcrypt hashing
+-   Oprettelse af login funktion
+-   Generering af JWT tokens
+-   Beskyttelse af endpoints
 -   Test af login og adgang
 
-------------------------------------------------------------------------
+
 
 ### Evaluering
 
@@ -103,7 +97,6 @@ feature, men en nødvendighed.
 Det har især været interessant at se, hvordan flere forskellige
 teknikker arbejder sammen for at beskytte systemet.
 
-------------------------------------------------------------------------
 
 # Hvad jeg har lært i denne uge
 
@@ -129,22 +122,51 @@ if (!user.roles().contains("ADMIN")) {
     throw new ForbiddenResponse("Requires ADMIN role");
 }
 ```
+JWT var også en vigtig del af ugen.
+
+Tokenet fungerer som en midlertidig identitet for brugeren
+
+Det betyder, at serveren ikke behøver gemme sessioner, men i stedet kan stole på tokenet.
+
+Et JWT består af tre dele:
+
+header (information om algoritme og type)
+payload (data om brugeren, fx id og roller)
+signature (bruges til at verificere tokenets ægthed)
+I mit projekt indeholder payload blandt andet:
+
+
+``` java
+ public String generateToken(AuthUserDTO user) {
+        return Jwts.builder()
+                //(...)
+                .claim("id", user.id())         <--
+                .claim("roles", user.roles())   <--
+                //(...)
+ }
+
+```
+Det betyder at jeg kan verificere gennem mit token, kontra at lave et databasekald hver gang.
+
+``` java
+.setExpiration(new Date(System.currentTimeMillis() +3600000*10)) // sat til ti timer, for at kunne arbejde med den - bliver ændret til FrontEnd eksamen
+``` 
+For dog at styrke sikkerheden, er der dog sat expiration på, således at sikkerheden bliver holdt.
 
 Noget af det vigtigste jeg lærte er forskellen på autentificering og
 autorisation.
 
-> Autentificering handler om hvem brugeren er\
+> Autentificering handler om hvem brugeren er
 > Autorisation handler om hvad brugeren må
 
 Jeg blev også opmærksom på, hvorfor password hashing er nødvendigt.
 
 > Passwords må aldrig gemmes som plain text
 
-Ved at bruge bcrypt bliver passwords: - hashet\
-- saltet\
+Ved at bruge bcrypt bliver passwords:
+ - hashet
+- saltet
 - og sværere at angribe
-
-JWT var også en vigtig del af ugen.
 
 > Tokenet fungerer som en midlertidig identitet for brugeren
 
@@ -155,8 +177,8 @@ Samtidig gjorde det tydeligt, at:
 
 > sikkerhed hurtigt kan blive spredt flere steder i systemet
 
-Jeg har fx både: - token-generering\
-- role-checks i controller\
+Jeg har fx både: - token-generering
+- role-checks i controller
 - og password-logik i entity
 
 Til sidst blev det klart for mig, at sikkerhed ikke er noget man
@@ -166,5 +188,5 @@ tilføjer til sidst.
 
 Kort sagt har jeg lært, at sikkerhed i backend handler om: - at beskytte
 brugerdata\
-- at kontrollere adgang\
+- at kontrollere adgang
 - og at placere ansvar de rigtige steder i systemet
