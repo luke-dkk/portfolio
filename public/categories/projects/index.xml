@@ -99,5 +99,25 @@
       
     </item>
     
+    <item>
+      <title>Uge 7 - Test af API med Rest Assured</title>
+      <link>http://localhost:1313/posts/week_seven/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/week_seven/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Uge 8 - Deployment, Docker og reverse proxy</title>
+      <link>http://localhost:1313/posts/week_eight_v_2/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/week_eight_v_2/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

@@ -222,7 +222,7 @@
     "keywords": ["legeplads","java","webapp"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1211"
+    "wordCount": "1693"
   }]
   </script>
 
@@ -534,7 +534,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-02-06T00:00:00&#43;00:00">6 February 2026</time><span class="px-2 text-primary-500">&middot;</span><span>1211 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
+      <time datetime="2026-02-06T00:00:00&#43;00:00">6 February 2026</time><span class="px-2 text-primary-500">&middot;</span><span>1693 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">8 mins</span>
     
 
     
@@ -701,7 +701,7 @@
     
       <div
         class="py-1 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
-        <a href="/posts/week_eight/">
+        <a href="/posts/week_eight_v_2/">
           Part 10:
           Uge 8 - Deployment, Docker og reverse proxy
         </a>
@@ -1011,9 +1011,184 @@ I denne uge har fokus været på at arbejde med REST og opbygningen af mit API g
 <p>I løbet af ugen har jeg arbejdet med at opbygge mit API ved hjælp af Javalin, hvor routing, endpoints og HTTP-metoder spiller en central rolle.</p>
 <p>Jeg har fået en bedre forståelse for, hvordan REST ikke kun handler om hvilke metoder man bruger, men hvordan man strukturerer sine ressourcer og endpoints.</p>
 <p>Derudover har jeg arbejdet med at holde mine controllers simple og lade dem fungere som et bindeled mellem HTTP og service-laget.</p>
+
+<h2 class="relative group">Indledning
+    <div id="indledning-4" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#indledning-4" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
 <p><a href="http://localhost:1313/posts/week_six/" >uge 6</a></p>
+<p>I denne uge har fokus været på sikkerhed i applikationen.</p>
+<p>Hvor jeg tidligere har arbejdet med data og API-struktur, har jeg nu
+arbejdet med, hvordan man beskytter systemet og kontrollerer adgang til
+det.</p>
+<p>Det har betydet, at jeg har arbejdet med: - password hashing</p>
+<ul>
+<li>autentificering</li>
+<li>autorisation</li>
+<li>og brug af JWT</li>
+</ul>
+
+<h2 class="relative group">Problemformulering
+    <div id="problemformulering-5" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#problemformulering-5" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Hvordan kan jeg sikre mit API, så:</p>
+<ul>
+<li>brugerdata ikke kompromitteres</li>
+<li>passwords håndteres sikkert</li>
+<li>og adgang til endpoints styres korrekt</li>
+</ul>
+
+<h2 class="relative group">Konklusion
+    <div id="konklusion-5" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#konklusion-5" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>I løbet af ugen har jeg arbejdet med at implementere sikkerhed gennem
+hashing af passwords og brug af JWT til autentificering.</p>
+<p>Jeg har fået en forståelse for, hvordan adgang kan styres gennem roller,
+og hvordan sikkerhed skal tænkes ind som en del af systemets design.</p>
+
+<h1 class="relative group">Uge 7 &ndash; Test af API og validering af funktionalitet
+    <div id="uge-7--test-af-api-og-validering-af-funktionalitet" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#uge-7--test-af-api-og-validering-af-funktionalitet" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+
+<h2 class="relative group">Indledning
+    <div id="indledning-5" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#indledning-5" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
 <p><a href="http://localhost:1313/posts/week_seven/" >uge 7</a></p>
-<p><a href="http://localhost:1313/posts/week_eight/" >uge 8</a></p>
+<p>I denne uge har fokus været på test af mit API.</p>
+<p>Hvor jeg tidligere har arbejdet med at opbygge funktionalitet, har jeg nu arbejdet med at verificere, at det jeg har lavet faktisk virker som forventet.</p>
+<p>Det har betydet, at jeg har arbejdet med:</p>
+<ul>
+<li>test af endpoints</li>
+<li>validering af responses</li>
+<li>og automatisering af tests</li>
+</ul>
+<p>Det har været en uge, hvor mit projekt er gået fra at være noget der “burde virke”, til noget der faktisk er testet og dokumenteret.</p>
+<hr>
+
+<h2 class="relative group">Problemformulering
+    <div id="problemformulering-6" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#problemformulering-6" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Hvordan kan jeg teste mit API, så:</p>
+<ul>
+<li>endpoints fungerer korrekt</li>
+<li>responses indeholder den forventede data</li>
+<li>og fejl opdages automatisk</li>
+</ul>
+<hr>
+
+<h2 class="relative group">Konklusion
+    <div id="konklusion-6" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#konklusion-6" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>I løbet af ugen har jeg arbejdet med at teste mit API ved hjælp af Rest Assured.</p>
+<p>Jeg har fået en bedre forståelse for, hvordan tests kan bruges til at verificere funktionalitet og sikre, at ændringer i koden ikke ødelægger eksisterende features.</p>
+<p>Derudover har jeg arbejdet med at teste endpoints, der kræver autentificering, hvilket har gjort det tydeligt, hvordan tests også spiller en rolle i sikkerhed.</p>
+<hr>
+
+<h1 class="relative group">Uge 8 &ndash; Deployment, Docker og hvordan mit system faktisk kører
+    <div id="uge-8--deployment-docker-og-hvordan-mit-system-faktisk-kører" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#uge-8--deployment-docker-og-hvordan-mit-system-faktisk-k%c3%b8rer" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+
+<h2 class="relative group">Indledning
+    <div id="indledning-6" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#indledning-6" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><a href="http://localhost:1313/posts/week_eight_v_2/" >uge 8</a>
+I denne uge har fokus været på deployment af min applikation.</p>
+<p>Hvor jeg tidligere har arbejdet med funktionalitet, test og sikkerhed, har jeg nu arbejdet med, hvordan systemet rent faktisk bliver kørt i et rigtigt miljø.</p>
+<p>Det har betydet, at jeg har arbejdet med:</p>
+<ul>
+<li>Docker</li>
+<li>docker-compose</li>
+<li>reverse proxy (Caddy)</li>
+<li>domæner</li>
+<li>og miljøvariabler</li>
+</ul>
+<p>Det har været en uge, hvor projektet er gået fra at være “noget der virker lokalt” til noget, der faktisk er tilgængeligt udefra.</p>
+<hr>
+
+<h2 class="relative group">Problemformulering
+    <div id="problemformulering-7" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#problemformulering-7" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Hvordan kan jeg deploye mit system, så:</p>
+<ul>
+<li>flere services kan køre sammen</li>
+<li>applikationen kan tilgås via domæner</li>
+<li>konfiguration håndteres korrekt</li>
+<li>og systemet fungerer stabilt i et rigtigt miljø</li>
+</ul>
+<hr>
+
+<h2 class="relative group">Konklusion
+    <div id="konklusion-7" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#konklusion-7" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>I løbet af ugen har jeg arbejdet med at deploye min applikation ved hjælp af Docker og docker-compose.</p>
+<p>Jeg har opsat en reverse proxy med Caddy, som gør det muligt at tilgå mine services gennem domæner.</p>
+<p>Derudover har jeg arbejdet med miljøvariabler og container-kommunikation, hvilket har gjort det tydeligt, hvor vigtigt det er at forstå samspillet mellem systemets forskellige dele.</p>
+<hr>
 
           
           
@@ -1121,7 +1296,7 @@ I denne uge har fokus været på at arbejde med REST og opbygningen af mit API g
     
       <div
         class="py-1 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
-        <a href="/posts/week_eight/">
+        <a href="/posts/week_eight_v_2/">
           Part 10:
           Uge 8 - Deployment, Docker og reverse proxy
         </a>

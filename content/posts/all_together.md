@@ -175,8 +175,113 @@ Jeg har fået en bedre forståelse for, hvordan REST ikke kun handler om hvilke 
 
 Derudover har jeg arbejdet med at holde mine controllers simple og lade dem fungere som et bindeled mellem HTTP og service-laget.
 
+## Indledning
 [uge 6]({{< ref "week_six.md" >}})
 
+I denne uge har fokus været på sikkerhed i applikationen.
+
+Hvor jeg tidligere har arbejdet med data og API-struktur, har jeg nu
+arbejdet med, hvordan man beskytter systemet og kontrollerer adgang til
+det.
+
+Det har betydet, at jeg har arbejdet med: - password hashing
+- autentificering
+- autorisation
+- og brug af JWT
+
+
+## Problemformulering
+
+Hvordan kan jeg sikre mit API, så:
+
+-   brugerdata ikke kompromitteres
+-   passwords håndteres sikkert
+-   og adgang til endpoints styres korrekt
+
+
+## Konklusion
+
+I løbet af ugen har jeg arbejdet med at implementere sikkerhed gennem
+hashing af passwords og brug af JWT til autentificering.
+
+Jeg har fået en forståelse for, hvordan adgang kan styres gennem roller,
+og hvordan sikkerhed skal tænkes ind som en del af systemets design.
+
+
+# Uge 7 -- Test af API og validering af funktionalitet
+
+## Indledning
 [uge 7]({{< ref "week_seven.md" >}})
 
-[uge 8]({{< ref "week_eight.md" >}})
+I denne uge har fokus været på test af mit API.
+
+Hvor jeg tidligere har arbejdet med at opbygge funktionalitet, har jeg nu arbejdet med at verificere, at det jeg har lavet faktisk virker som forventet.
+
+Det har betydet, at jeg har arbejdet med:
+- test af endpoints
+- validering af responses
+- og automatisering af tests
+
+Det har været en uge, hvor mit projekt er gået fra at være noget der “burde virke”, til noget der faktisk er testet og dokumenteret.
+
+---
+
+## Problemformulering
+
+Hvordan kan jeg teste mit API, så:
+
+- endpoints fungerer korrekt
+- responses indeholder den forventede data
+- og fejl opdages automatisk
+
+---
+
+## Konklusion
+
+I løbet af ugen har jeg arbejdet med at teste mit API ved hjælp af Rest Assured.
+
+Jeg har fået en bedre forståelse for, hvordan tests kan bruges til at verificere funktionalitet og sikre, at ændringer i koden ikke ødelægger eksisterende features.
+
+Derudover har jeg arbejdet med at teste endpoints, der kræver autentificering, hvilket har gjort det tydeligt, hvordan tests også spiller en rolle i sikkerhed.
+
+---
+# Uge 8 -- Deployment, Docker og hvordan mit system faktisk kører
+
+## Indledning
+[uge 8]({{< ref "week_eight_v_2.md" >}})
+I denne uge har fokus været på deployment af min applikation.
+
+Hvor jeg tidligere har arbejdet med funktionalitet, test og sikkerhed, har jeg nu arbejdet med, hvordan systemet rent faktisk bliver kørt i et rigtigt miljø.
+
+Det har betydet, at jeg har arbejdet med:
+- Docker
+- docker-compose
+- reverse proxy (Caddy)
+- domæner
+- og miljøvariabler
+
+Det har været en uge, hvor projektet er gået fra at være “noget der virker lokalt” til noget, der faktisk er tilgængeligt udefra.
+
+---
+
+## Problemformulering
+
+Hvordan kan jeg deploye mit system, så:
+
+- flere services kan køre sammen  
+- applikationen kan tilgås via domæner  
+- konfiguration håndteres korrekt  
+- og systemet fungerer stabilt i et rigtigt miljø  
+
+---
+
+## Konklusion
+
+I løbet af ugen har jeg arbejdet med at deploye min applikation ved hjælp af Docker og docker-compose.
+
+Jeg har opsat en reverse proxy med Caddy, som gør det muligt at tilgå mine services gennem domæner.
+
+Derudover har jeg arbejdet med miljøvariabler og container-kommunikation, hvilket har gjort det tydeligt, hvor vigtigt det er at forstå samspillet mellem systemets forskellige dele.
+
+---
+
