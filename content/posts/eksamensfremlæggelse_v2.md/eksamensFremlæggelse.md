@@ -1,7 +1,8 @@
 ---
 title: Eksamenspræsentation
-categories: ["eksamen", "ideas"]
+categories: ["eksamen", "fremlæggelse"]
 ---
+[uge 3]({{< ref "week_three.md" >}})
 
 Med udagangspunkt i at præsentationen -  lige nu, er på 5 minutter, vil jeg præsentere følgende.
 
