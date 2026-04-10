@@ -1,5 +1,7 @@
 [[main]]
-none = "none"
+name = "Eksamensfremlæggelse"
+pageRef = "eksamen"
+
 
 [[main]]
 name = "Projects"
