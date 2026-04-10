@@ -128,12 +128,10 @@ JPA understøtter flere relationstyper:
 
 Et eksempel kan være relationen mellem **Playground** og **Facility**.
 
-En legeplads kan ikke have flere faciliteter.
+En legeplads kan eksempelvis ikke have flere faciliteter, og vil altid have en, derfor bliver den oprettet øjeblikket der bliver instancieret en ny Playground.
 
 ```java
 @Entity
-public class Playground {
-
 public class Playground {
 
 
