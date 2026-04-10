@@ -14,3 +14,9 @@ Ydermere, er jeg først senere i projektet blevet gjort opmærksom på UUID´s.
 Så hvad fordelen ville være ved det?
 
 Fordele/ulemper ved brug af Interfaces - da jeg i løbet af projektet har fået implementeret at en playground altid opretter en facility, og derved har jeg flere gange skulle lave om i både i mit program, og yderligere også i mine interfaces.
+
+udover dette, er mine tanker at jeg vil berøre:
+
+[Uge 2 – Introduktion til JPA og første entity]({{< ref "week_two.md" >}})
+[Uge 5 – Javalin, REST og struktur af API]({{< ref "week_five.md" >}})
+[Uge 6 - Security, JWT og password hashing]({{< ref "week_six.md" >}})
