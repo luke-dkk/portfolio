@@ -2,7 +2,7 @@
 title: Uge 4 - JSON, DTO og API
 categories: ["projects", "ideas"]
 tags: ["legeplads", "java", "webapp"]
-date: 2026-02-06
+date: 2026-02-20
 draft: false
 showauthor: true
 series: ["Find en Legeplads"]

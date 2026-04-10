@@ -4,7 +4,7 @@ authors:
 categories:
 - projects
 - ideas
-date: 2026-02-06
+date: 2026-03-13
 draft: false
 series:
 - Find en Legeplads
