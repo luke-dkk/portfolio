@@ -1,20 +1,14 @@
 ---
-authors:
-- Luke Burup Persson
-categories:
-- projects
-- ideas
+title: Uge 8 - Deployment, Docker og reverse proxy
+categories: ["projects", "ideas"]
+tags: []
 date: 2026-07-04
 draft: false
-series:
-- Find en Legeplads
-series_order: 10
 showauthor: true
-tags:
-- legeplads
-- java
-- webapp
-title: Uge 8 - Deployment, Docker og reverse proxy
+series: ["Find en Legeplads"]
+series_order: 10
+authors:
+  - Luke Burup Persson
 ---
 
 # Uge 8 -- Deployment, Docker og hvordan mit system faktisk kører
@@ -162,3 +156,4 @@ GOOGLE_API_KEY= ...
 ```
 
 
+""

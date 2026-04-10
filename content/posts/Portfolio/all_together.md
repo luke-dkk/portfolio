@@ -248,7 +248,7 @@ Derudover har jeg arbejdet med at teste endpoints, der kræver autentificering, 
 # Uge 8 -- Deployment, Docker og hvordan mit system faktisk kører
 
 ## Indledning
-[uge 8]({{< ref "week_eight_v_2.md" >}})
+
 I denne uge har fokus været på deployment af min applikation.
 
 Hvor jeg tidligere har arbejdet med funktionalitet, test og sikkerhed, har jeg nu arbejdet med, hvordan systemet rent faktisk bliver kørt i et rigtigt miljø.

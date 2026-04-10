@@ -7,114 +7,104 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/luke-burup-persson/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/luke-burup-persson/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Find en legeplads introduktion</title>
-      <link>http://localhost:1313/posts/week_one/</link>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <title>Uge 7 - Test af API med Rest Assured</title>
+      <link>http://localhost:1313/posts/portfolio/week_seven/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/week_one/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Interview Mikkel</title>
-      <link>http://localhost:1313/posts/interview/</link>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/interview/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Introduktion til JPA og første entitet</title>
-      <link>http://localhost:1313/posts/week_two/</link>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/week_two/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Sådan læses portfolio-opgaven</title>
-      <link>http://localhost:1313/posts/how_to_read/</link>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/how_to_read/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Samlet indledning, problemformulering og konklusion.</title>
-      <link>http://localhost:1313/posts/all_together/</link>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/all_together/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Uge 3 - JPA relationer</title>
-      <link>http://localhost:1313/posts/week_three/</link>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/week_three/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Uge 4 - JSON, DTO og API</title>
-      <link>http://localhost:1313/posts/week_four/</link>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/week_four/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Uge 5 - Javalin, REST og API design</title>
-      <link>http://localhost:1313/posts/week_five/</link>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/week_five/</guid>
+      <guid>http://localhost:1313/posts/portfolio/week_seven/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Uge 6 - Security, JWT og password hashing</title>
-      <link>http://localhost:1313/posts/week_six/</link>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <link>http://localhost:1313/posts/portfolio/week_six/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/week_six/</guid>
+      <guid>http://localhost:1313/posts/portfolio/week_six/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Uge 7 - Test af API med Rest Assured</title>
-      <link>http://localhost:1313/posts/week_seven/</link>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <title>Uge 5 - Javalin, REST og API design</title>
+      <link>http://localhost:1313/posts/portfolio/week_five/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/week_seven/</guid>
+      <guid>http://localhost:1313/posts/portfolio/week_five/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Uge 8 - Deployment, Docker og reverse proxy</title>
-      <link>http://localhost:1313/posts/week_eight_v_2/</link>
+      <title>Uge 4 - JSON, DTO og API</title>
+      <link>http://localhost:1313/posts/portfolio/week_four/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/week_four/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Uge 3 - JPA relationer</title>
+      <link>http://localhost:1313/posts/portfolio/week_three/</link>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/week_three/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Find en legeplads introduktion</title>
+      <link>http://localhost:1313/posts/portfolio/week_one/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/week_eight_v_2/</guid>
+      <guid>http://localhost:1313/posts/portfolio/week_one/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interview Mikkel</title>
+      <link>http://localhost:1313/posts/portfolio/interview/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/interview/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Introduktion til JPA og første entitet</title>
+      <link>http://localhost:1313/posts/portfolio/week_two/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/week_two/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sådan læses portfolio-opgaven</title>
+      <link>http://localhost:1313/posts/portfolio/how_to_read/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/how_to_read/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Samlet indledning, problemformulering og konklusion.</title>
+      <link>http://localhost:1313/posts/portfolio/all_together/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/all_together/</guid>
       <description></description>
       
     </item>
