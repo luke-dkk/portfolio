@@ -1,4 +1,9 @@
-Med udagangspunkt i at præsenteationen lige nu - vil jeg præsentere følgende.
+---
+title: Eksamenspræsentation
+categories: ["eksamen", "ideas"]
+---
+
+Med udagangspunkt i at præsentationen -  lige nu, er på 5 minutter, vil jeg præsentere følgende.
 
 Til min eksamen - der vil jeg antage jeg vil arbejde med uge 3  "JPA relationer og udvidelse af datamodellen"
 
