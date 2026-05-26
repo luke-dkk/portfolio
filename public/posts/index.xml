@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Find en legeplads introduktion</title>
+      <link>http://localhost:1313/posts/react/week_3/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/react/week_3/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Find en legeplads introduktion</title>
+      <link>http://localhost:1313/posts/react/week_2/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/react/week_2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Find en legeplads introduktion</title>
+      <link>http://localhost:1313/posts/react/week_1/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/react/week_1/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Uge 7 - Test af API med Rest Assured</title>
@@ -115,6 +145,16 @@
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/portfolio/all_together/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/react/week_4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/react/week_4/</guid>
       <description></description>
       
     </item>
