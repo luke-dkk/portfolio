@@ -21,12 +21,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/portfolio/react/</loc>
-    <lastmod>2026-05-08T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/posts/portfolio/react/week_2/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
