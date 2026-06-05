@@ -8,7 +8,7 @@ showauthor: true
 series: ["Find en Legeplads -react"]
 series_order: 0
 authors:
- - Luke Burup Persson, Frederrik Edvardsen
+ - Luke Burup Persson, Frederik Edvardsen
 ---
 
 # Uge 1
