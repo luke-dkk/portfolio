@@ -4,7 +4,7 @@ title: "Portfolio"
 
 # Projekter
 
-- [Backend](portfolio/posts/portfolio/backend/)
+- [Backend](/portfolio/posts/portfolio/backend/)
 
 - [React](posts/portfolio/react/)
 
