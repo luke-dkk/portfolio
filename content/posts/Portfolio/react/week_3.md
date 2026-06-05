@@ -1,12 +1,12 @@
 ---
-title: Find en legeplads introduktion
+title: React part III - Routing, Security, and Deployment
 categories: ["projects", "ideas"]
 tags: ["legeplads", "java", "webapp"]
 date: 2026-05-08
 draft: false
 showauthor: true
 series: ["Find en Legeplads -React"]
-series_order: 2
+series_order: 3
 authors:
   - Luke Burup Persson, Frederik Edvardsen
 ---

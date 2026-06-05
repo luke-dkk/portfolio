@@ -1,5 +1,5 @@
 ---
-title: Find en legeplads introduktion
+title: React part II - SPA with Many Components
 categories: ["projects", "ideas"]
 tags: ["legeplads", "java", "webapp"]
 date: 2026-05-01

@@ -1,5 +1,5 @@
 ---
-title: Find en legeplads introduktion
+title: JS and React
 categories: ["projects", "ideas"]
 tags: ["legeplads", "java", "webapp"]
 date: 2026-04-24
