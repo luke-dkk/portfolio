@@ -86,6 +86,8 @@ Arbejdet med find en Legeplads gjorde det tydeligt, hvor vigtigt det er at opdel
 
 Uge 2 skabte derfor et vigtigt grundlag for det videre arbejde med routing, sikkerhed og mere avanceret frontend-arkitektur, som vi senere skulle arbejde videre med i de kommende uger.
 
+---
+
 # Uge 3
 
 ## Indledning
@@ -134,7 +136,7 @@ Ugen skabte derfor et vigtigt grundlag for det videre arbejde med styling, deplo
 
 ## Indledning
 
-[uge 4]({{< ref "week_1.md" >}})
+[uge 4]({{< ref "week_4.md" >}})
 
 I uge 4 arbejdede vi med styling, arkitektur og deployment af frontend-applikationen til *Find en Legeplads*. Efter de foregående ugers fokus på komponenter, state management, routing og sikkerhed var målet nu at samle applikationen til en mere færdig og brugervenlig løsning.
 
