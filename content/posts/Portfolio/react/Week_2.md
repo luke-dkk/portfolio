@@ -37,7 +37,7 @@ Derudover arbejdede vi med følgende problemstillinger:
 
 ---
 
-# SMTTE-model (uddrag)
+# SMTTE-model
 
 ## Sammenhæng
 

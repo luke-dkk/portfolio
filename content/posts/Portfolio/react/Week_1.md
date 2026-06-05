@@ -36,7 +36,7 @@ Derudover arbejdede vi med følgende problemstillinger:
 
 ---
 
-## SMTTE-model (uddrag)
+## SMTTE-model 
 
 ### Sammenhæng
 
@@ -253,7 +253,7 @@ Dette gav en bedre forståelse for, hvordan frontend og backend arbejder sammen 
 ---
 
 
-## Konklusionkonklusion
+## Konklusion
 
 Uge 1 gav et vigtigt fundament inden for frontend-udvikling med JavaScript og React. Vi lærte at arbejde med centrale React-principper såsom komponentopbygning, props, state management og API-integration, hvilket gjorde det muligt at begynde udviklingen af frontend-delen til Find en Legeplads.
 

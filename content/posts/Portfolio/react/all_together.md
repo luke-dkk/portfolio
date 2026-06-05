@@ -17,28 +17,36 @@ authors:
 
 [uge 1]({{< ref "Week_1.md" >}})
 
-I den første uge af React-forløbet arbejdede vi med de grundlæggende principper inden for moderne frontend-udvikling. Fokus var på at opbygge en forståelse for React som bibliotek og hvordan komponentbaseret udvikling adskiller sig fra traditionel DOM-programmering.
+I uge 1 arbejdede vi med introduktion til JavaScript og React i forbindelse med udviklingen af frontend-delen til projektet *Find en Legeplads*. Fokus i denne uge var at opbygge en grundlæggende forståelse for JavaScript som programmeringssprog samt lære, hvordan React kan bruges til at udvikle moderne Single Page Applications (SPA).
 
-Vi arbejdede blandt andet med JavaScript, funktionelle komponenter, state management og API-kald. Formålet var at skabe et fundament for udviklingen af frontend-delen til *Find en Legeplads*.
+Vi arbejdede blandt andet med arrays, funktioner, DOM-manipulation og events i JavaScript, hvilket gav en forståelse for, hvordan brugerinteraktion håndteres i browseren. Senere på ugen blev React introduceret, hvor vi lærte om komponenter, props, state management med `useState` samt datahentning fra API’er.
+
+Formålet med uge 1 var derfor at skabe et fundament for frontend-udvikling, så vi senere kunne bygge mere avancerede funktioner i vores React-applikation til *Find en Legeplads*.
+
+---
 
 ## Problemformulering
 
-Hvordan kan React anvendes til at udvikle en moderne og dynamisk frontend-applikation, hvor data håndteres gennem komponenter og API-kald?
+Hvordan kan React og moderne JavaScript anvendes til at udvikle en overskuelig og dynamisk frontend-applikation til *Find en Legeplads*, hvor komponenter, state management og API-kald gør det muligt at skabe en brugervenlig løsning?
 
-For at kunne arbejde videre med projektet var det nødvendigt at forstå:
+Derudover arbejdede vi med følgende problemstillinger:
 
-* React-komponenter
-* JavaScript i React
-* useState
-* useEffect
-* API-kald og datahåndtering
+- Hvordan opdeles en brugergrænseflade i genbrugelige React-komponenter?
+- Hvordan kan `useState` bruges til at håndtere data og brugerinteraktion?
+- Hvordan hentes data fra et API og vises dynamisk i frontend?
+- Hvordan kan JavaScript-funktioner som `map`, `filter` og `forEach` bruges til behandling af data?
+
+---
 
 ## Konklusion
 
-I løbet af den første uge blev der etableret et grundlæggende fundament inden for React. Arbejdet med komponenter, hooks og API-kald gav en forståelse for, hvordan data kan håndteres dynamisk i frontend-applikationen.
+Uge 1 gav et vigtigt fundament inden for frontend-udvikling med JavaScript og React. Vi lærte at arbejde med centrale React-principper såsom komponentopbygning, props, state management og API-integration, hvilket gjorde det muligt at begynde udviklingen af frontend-delen til Find en Legeplads.
 
-Dette dannede grundlaget for den videre udvikling af *Find en Legeplads*.
+Gennem arbejdet med React hooks som useState og useEffect fik vi en forståelse for, hvordan data kan håndteres og vises dynamisk i en applikation. Samtidig arbejdede vi med JavaScript-funktioner og DOM-manipulation, som er essentielle for forståelsen af moderne webudvikling.
 
+Arbejdet med vores egne API-kald og React hooks gjorde det lettere at forstå, hvordan data flyder mellem backend og frontend. Det blev samtidig tydeligt, hvor vigtigt det er at strukturere kode korrekt gennem komponenter og genbrugelige funktioner for at skabe en mere overskuelig og vedligeholdelsesvenlig applikation.
+
+Ugen gav derfor en solid introduktion til moderne frontend-udvikling og skabte et vigtigt grundlag for det videre arbejde med projektet, hvor vi senere kan videreudvikle funktionalitet og brugeroplevelse i applikationen.
 ---
 
 # Uge 2
@@ -47,30 +55,36 @@ Dette dannede grundlaget for den videre udvikling af *Find en Legeplads*.
 
 [uge 2]({{< ref "Week_2.md" >}})
 
-I uge 2 blev der arbejdet videre med React gennem opbygning af flere komponenter og mere avanceret state management. Fokus var på at skabe en mere interaktiv brugergrænseflade og forstå, hvordan data flyder mellem komponenter.
+I uge 2 arbejdede vi videre med React og frontend-udvikling i forbindelse med projektet *Find en Legeplads*. Fokus i denne uge var at opbygge en mere dynamisk Single Page Application (SPA) gennem brug af flere komponenter, state management og interaktivitet i brugergrænsefladen.
 
-Der blev blandt andet arbejdet med props, formularer, conditional rendering og dynamiske lister.
+Vi arbejdede blandt andet med funktionelle komponenter, props, `useState`, `useEffect`, lister og conditional rendering. Derudover lærte vi at håndtere formularer og dele state mellem komponenter, så data kunne flyde mere struktureret gennem applikationen.
 
-## Problemformulering
-
-Hvordan kan React-komponenter struktureres, så data og brugerinteraktion håndteres effektivt i en større frontend-applikation?
-
-Problemstillingen har blandt andet omfattet:
-
-* Props
-* State management
-* Conditional rendering
-* Lists and keys
-* Formularer
-* Lifting state
-
-## Konklusion
-
-Arbejdet i uge 2 gav en større forståelse for, hvordan React-applikationer organiseres gennem komponenter og state management.
-
-Samtidig blev det tydeligt, hvor vigtigt det er at opdele funktionalitet i mindre genbrugelige komponenter for at skabe en mere overskuelig og vedligeholdelsesvenlig kodebase.
+Formålet med uge 2 var at videreudvikle vores forståelse for React samt begynde at opbygge frontend-applikationen til *Find en Legeplads* med fokus på komponentstruktur, interaktivitet og datahåndtering.
 
 ---
+
+# Problemformulering
+
+Hvordan kan React anvendes til at udvikle en mere interaktiv og komponentbaseret frontend-applikation til *Find en Legeplads*, hvor state management, props og brugerinteraktion skaber en dynamisk brugeroplevelse?
+
+Derudover arbejdede vi med følgende problemstillinger:
+
+- Hvordan opdeles applikationen i genbrugelige React-komponenter?
+- Hvordan deles state mellem komponenter?
+- Hvordan bruges `useState` og `useEffect` til at skabe interaktivitet?
+- Hvordan kan formularer håndteres i React?
+- Hvordan kan data vises dynamisk gennem lister og conditional rendering?
+
+---
+# konklusion
+
+Uge 2 videreudviklede vores forståelse for React og frontend-udvikling gennem arbejdet med mere avancerede komponenter og interaktivitet i brugergrænsefladen. Vi lærte at arbejde mere struktureret med komponenter, props og state management, hvilket gjorde det muligt at skabe mere dynamiske og brugervenlige frontend-applikationer.
+
+Gennem arbejdet med formularer, conditional rendering og dynamiske lister fik vi en bedre forståelse for, hvordan React håndterer data og brugerinteraktion. Samtidig arbejdede vi med deling af state mellem komponenter, hvilket gav indsigt i, hvordan større React-applikationer opbygges og struktureres.
+
+Arbejdet med find en Legeplads gjorde det tydeligt, hvor vigtigt det er at opdele applikationen i mindre genbrugelige komponenter for at skabe en mere overskuelig og vedligeholdelsesvenlig kodebase. Vi begyndte samtidig at arbejde mere praktisk med datahåndtering fra backend og dynamisk rendering af information i frontend.
+
+Uge 2 skabte derfor et vigtigt grundlag for det videre arbejde med routing, sikkerhed og mere avanceret frontend-arkitektur, som vi senere skulle arbejde videre med i de kommende uger.
 
 # Uge 3
 
