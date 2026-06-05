@@ -38,7 +38,7 @@ Derudover arbejdede vi med følgende problemstillinger:
 
 
 
-# SMTTE-model (uddrag)
+# SMTTE-model
 
 ## Sammenhæng
 
@@ -175,7 +175,7 @@ Denne konfiguration sikrer, at React Router fungerer korrekt efter deployment.
 
 
 
-# Samlet evaluering og konklusion
+# konklusion
 
 Uge 4 samlede mange af de koncepter, vi havde arbejdet med gennem de foregående uger. Fokus flyttede sig fra primært funktionalitet til også at omfatte brugeroplevelse, strukturering og klargøring af applikationen til deployment.
 

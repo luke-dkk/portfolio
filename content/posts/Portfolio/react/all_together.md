@@ -92,28 +92,41 @@ Uge 2 skabte derfor et vigtigt grundlag for det videre arbejde med routing, sikk
 
 [uge 3]({{< ref "week_3.md" >}})
 
-I uge 3 blev fokus flyttet fra komponenter og state management til routing og sikkerhed. Formålet var at udvikle frontend-applikationen til en mere komplet Single Page Application med login og beskyttede sider.
 
-Der blev arbejdet med React Router, JWT-baseret autentifikation, Context API og protected routes.
+I uge 3 arbejdede vi videre med udviklingen af frontend-applikationen til *Find en Legeplads* med fokus på routing, sikkerhed og beskyttelse af brugerdata i React. Formålet med denne uge var at skabe en mere professionel Single Page Application (SPA), hvor brugeren kunne navigere mellem forskellige sider, logge ind og få adgang til beskyttede funktioner.
 
-## Problemformulering
+Vi arbejdede blandt andet med React Router, layouts, protected routes og JWT-baseret login. Derudover lærte vi, hvordan frontend og backend kan arbejde sammen gennem autentifikation og rollebaseret adgang til bestemte funktioner i applikationen.
 
-Hvordan kan routing og sikkerhed implementeres i en React-applikation, så brugere kan navigere mellem sider og få adgang til beskyttede funktioner gennem login?
+Fokus i uge 3 var derfor at videreudvikle frontend-applikationen med navigation, sikkerhed og en mere struktureret applikationsarkitektur.
 
-Problemstillingen omfattede blandt andet:
+---
 
-* React Router
-* Navigation
-* Protected Routes
-* JWT Tokens
-* Context API
-* Rollebaseret adgang
+# Problemformulering
+
+Hvordan kan React Router og JWT-baseret sikkerhed anvendes til at udvikle en sikker og struktureret frontend-applikation til *Find en Legeplads*, hvor brugere kan navigere mellem sider og få adgang til beskyttede funktioner gennem login?
+
+Derudover arbejdede vi med følgende problemstillinger:
+
+- Hvordan implementeres routing i en React-applikation?
+- Hvordan opbygges protected routes?
+- Hvordan håndteres login og JWT tokens i frontend?
+- Hvordan deles brugerinformation gennem Context API?
+- Hvordan sikres navigation mellem offentlige og beskyttede sider?
+
+---
+
 
 ## Konklusion
 
-I løbet af ugen blev der implementeret routing og autentifikation i frontend-applikationen. Dette gav en bedre forståelse for, hvordan moderne webapplikationer håndterer navigation og sikkerhed.
+Uge 3 gav en større forståelse for, hvordan routing og sikkerhed implementeres i moderne React-applikationer. Vi lærte at arbejde med React Router, layouts og navigation, hvilket gjorde det muligt at skabe en mere struktureret Single Page Application, hvor brugeren kunne navigere mellem forskellige sider uden genindlæsning af browseren.
 
-Arbejdet skabte samtidig et vigtigt grundlag for håndtering af brugerdata og beskyttelse af funktionalitet i applikationen.
+Arbejdet med ProtectedRoute, AuthContext og JWT-baseret login gav indsigt i, hvordan frontend-applikationer kan beskyttes gennem autentifikation og rollebaseret adgang. Vi lærte blandt andet, hvordan brugerinformation kan gemmes og deles mellem komponenter, samt hvordan bestemte sider kun kan tilgås af brugere, der er logget ind. Dette gjorde applikationen mere sikker og mere realistisk i forhold til moderne webudvikling.
+
+Derudover arbejdede vi med layouts og nested routes, som gjorde det muligt at strukturere applikationen mere overskueligt. Dette gav en bedre forståelse for, hvordan større frontend-applikationer organiseres gennem genbrugelige komponenter og tydelig opdeling mellem offentlige og beskyttede sider.
+
+En vigtig erfaring fra uge 3 var også forståelsen for samspillet mellem frontend og backend i forbindelse med login og sikkerhed. Vi begyndte at arbejde mere professionelt med håndtering af tokens og beskyttelse af brugerdata, hvilket er centrale elementer i fullstack-applikationer.
+
+Ugen skabte derfor et vigtigt grundlag for det videre arbejde med styling, deployment og fullstack-arkitektur i de kommende uger, hvor frontend-applikationen skulle gøres endnu mere komplet og produktionsklar.
 
 ---
 
@@ -123,28 +136,35 @@ Arbejdet skabte samtidig et vigtigt grundlag for håndtering af brugerdata og be
 
 [uge 4]({{< ref "week_1.md" >}})
 
-I uge 4 blev fokus rettet mod styling, arkitektur og deployment af frontend-applikationen. Efter arbejdet med komponenter, state management, routing og sikkerhed var målet nu at samle løsningen til en mere færdig og produktionsklar applikation.
+I uge 4 arbejdede vi med styling, arkitektur og deployment af frontend-applikationen til *Find en Legeplads*. Efter de foregående ugers fokus på komponenter, state management, routing og sikkerhed var målet nu at samle applikationen til en mere færdig og brugervenlig løsning.
 
-Der blev arbejdet med CSS, Flexbox, CSS-variabler, UseContext samt deployment af frontend-applikationen til servermiljø.
+Vi arbejdede med CSS, Flexbox og CSS-variabler for at forbedre brugeroplevelsen og skabe en mere ensartet visuel identitet på tværs af applikationen. Selvom CSS Modules indgik som en del af ugens pensum, valgte vi bevidst at arbejde med traditionelle CSS-filer. Dette valg blev truffet for at opnå en stærkere forståelse af grundlæggende CSS-principper og styling af React-komponenter, før vi introducerede yderligere abstraktioner.
 
-## Problemformulering
+Derudover arbejdede vi med UseContext, arkitekturen i vores fullstack-applikation og deployment af frontend-løsningen til en Linux-server. Dette gav en bedre forståelse for, hvordan en React-applikation flyttes fra udviklingsmiljø til produktionsmiljø og gøres tilgængelig for brugerne via en webserver.
 
-Hvordan kan styling, arkitektur og deployment anvendes til at udvikle en brugervenlig og vedligeholdelsesvenlig frontend-applikation, samtidig med at løsningen klargøres til drift i et produktionsmiljø?
 
-Problemstillingen omfattede blandt andet:
 
-* CSS og styling
-* Flexbox
-* CSS-variabler
-* UseContext
-* Frontend-arkitektur
-* Deployment
-* Webserver-konfiguration
+# Problemformulering
+
+Hvordan kan styling, arkitektur og deployment anvendes til at udvikle en brugervenlig og vedligeholdelsesvenlig frontend-applikation til *Find en Legeplads*, samtidig med at løsningen klargøres til drift i et produktionsmiljø?
+
+Derudover arbejdede vi med følgende problemstillinger:
+
+- Hvordan kan CSS anvendes til at forbedre brugeroplevelsen?
+- Hvordan kan Flexbox og CSS-variabler skabe fleksible layouts?
+- Hvordan kan UseContext anvendes til deling af data mellem komponenter?
+- Hvordan struktureres en større React-applikation?
+- Hvordan deployeres en React-applikation til en server?
+- Hvordan konfigureres en webserver til at håndtere routing i en Single Page Application?
+
+
 
 ## Konklusion
 
-I løbet af uge 4 blev frontend-applikationen samlet til en mere komplet løsning gennem styling, strukturering og deployment.
+IUge 4 samlede mange af de koncepter, vi havde arbejdet med gennem de foregående uger. Fokus flyttede sig fra primært funktionalitet til også at omfatte brugeroplevelse, strukturering og klargøring af applikationen til deployment.
 
-Arbejdet gav indsigt i, hvordan moderne frontend-applikationer ikke kun handler om funktionalitet, men også om brugeroplevelse, vedligeholdelse og drift. Samtidig gav deployment-processen erfaring med at flytte en React-applikation fra udviklingsmiljø til produktionsmiljø.
+Arbejdet med CSS, Flexbox og CSS-variabler gav en bedre forståelse for, hvordan moderne frontend-applikationer designes og vedligeholdes. Selvom CSS Modules var en del af pensum, valgte vi bevidst at fokusere på traditionelle CSS-filer for at styrke forståelsen af de grundlæggende stylingprincipper.
 
-Uge 4 afsluttede dermed frontend-forløbet ved at samle komponenter, state management, routing, sikkerhed, styling og deployment i én samlet løsning.
+Samtidig gav arbejdet med UseContext og applikationens arkitektur indsigt i, hvordan større React-projekter organiseres. Deployment-processen gav desuden praktisk erfaring med at flytte en frontend-applikation fra udviklingsmiljø til produktionsmiljø og konfigurere den til drift på en server.
+
+Uge 4 afsluttede dermed frontend-forløbet ved at samle komponenter, state management, routing, sikkerhed, styling og deployment i én samlet løsning. Dette gav en helhedsforståelse af, hvordan en moderne fullstack-applikation opbygges, vedligeholdes og gøres tilgængelig for brugerne.

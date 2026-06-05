@@ -200,7 +200,7 @@ export function getCurrentUser() {
 Her arbejdede vi med dekodning og håndtering af JWT tokens.
 
 ---
-Konklusion
+## Konklusion
 
 Uge 3 gav en større forståelse for, hvordan routing og sikkerhed implementeres i moderne React-applikationer. Vi lærte at arbejde med React Router, layouts og navigation, hvilket gjorde det muligt at skabe en mere struktureret Single Page Application, hvor brugeren kunne navigere mellem forskellige sider uden genindlæsning af browseren.
 
