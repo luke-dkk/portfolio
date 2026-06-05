@@ -4,8 +4,8 @@ title: "Portfolio"
 
 # Projekter
 
-- [Backend](/portfolio/posts/portfolio/backend/)
+- [Backend](posts/portfolio/backend/)
 
 - [React](posts/portfolio/react/)
 
-- [Fremlæggelse](/portfolio/posts/portfolio/eksamensfremlæggelse_v2/)
+- [Fremlæggelse](posts/portfolio/eksamensfremlaeggelse/)
