@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Backend on Blowfish</title>
+    <title>Samlet indledning, problemformulering og konklusion. on Blowfish</title>
     <link>http://localhost:1313/posts/portfolio/backend/</link>
-    <description>Recent content in Backend on Blowfish</description>
+    <description>Recent content in Samlet indledning, problemformulering og konklusion. on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
@@ -105,16 +105,6 @@
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/portfolio/backend/how_to_read/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Samlet indledning, problemformulering og konklusion.</title>
-      <link>http://localhost:1313/posts/portfolio/backend/all_together/</link>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/portfolio/backend/all_together/</guid>
       <description></description>
       
     </item>
