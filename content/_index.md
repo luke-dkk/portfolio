@@ -8,4 +8,4 @@ title: "Portfolio"
 
 - [React](posts/portfolio/react/)
 
-- [Fremlæggelse](/portfolio/posts/portfolio/eksamensfremlæggelse_v2.md/)
+- [Fremlæggelse](/portfolio/posts/portfolio/eksamensfremlæggelse_v2/)
