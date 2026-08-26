@@ -11,7 +11,7 @@ authors:
   - Luke Burup Persson
 ---
 
-## Sådan læses denne portfolio  
+## Sådan læses denne portfolio 
 
 Denne portfolio dokumenterer udviklingen af projektet uge for uge.  
 Da materialet over tid kan blive omfattende, er hvert indlæg struktureret på en måde, der gør det muligt hurtigt at danne sig et overblik over indholdet.
