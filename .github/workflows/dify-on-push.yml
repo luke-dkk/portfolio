@@ -1,0 +1,53 @@
+name: Run Dify on push
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  notify-dify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start the Dify workflow
+        env:
+          # https://api.dify.ai for Dify Cloud, or your self-hosted Dify URL.
+          DIFY_BASE_URL: ${{ vars.DIFY_BASE_URL }}
+          DIFY_API_KEY: ${{ secrets.DIFY_API_KEY }}
+          REPOSITORY: ${{ github.repository }}
+          REF_NAME: ${{ github.ref_name }}
+          COMMIT_SHA: ${{ github.sha }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          ACTOR: ${{ github.actor }}
+        run: |
+          node <<'NODE'
+          const endpoint = `${process.env.DIFY_BASE_URL.replace(/\/$/, '')}/v1/workflows/run`;
+          const payload = {
+            inputs: {
+              repository: process.env.REPOSITORY,
+              branch: process.env.REF_NAME,
+              commit_sha: process.env.COMMIT_SHA,
+              commit_message: process.env.COMMIT_MESSAGE,
+              pushed_by: process.env.ACTOR,
+            },
+            response_mode: 'blocking',
+            user: `github-actions:${process.env.REPOSITORY}`,
+          };
+
+          const response = await fetch(endpoint, {
+            method: 'POST',
+            headers: {
+              Authorization: `Bearer ${process.env.DIFY_API_KEY}`,
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(payload),
+          });
+          const responseText = await response.text();
+          if (!response.ok) {
+            throw new Error(`Dify returned ${response.status}: ${responseText}`);
+          }
+          console.log('Dify workflow started successfully.');
+          NODE
