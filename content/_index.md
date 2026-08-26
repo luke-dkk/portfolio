@@ -1,11 +1,11 @@
 ---
-title: "Portfolio"
+title: "Luke's Portfolio"
 ---
 
-# Projekter
+# Projects, notes, and experiments
 
-- [Backend](posts/portfolio/backend/)
+I’m Luke, a developer building projects and documenting what I learn along the way.
 
-- [React](posts/portfolio/react/)
+- [Explore my projects](/posts/portfolio/)
+- [Visit my GitHub](https://github.com/luke-dkk)
 
-- [Fremlæggelse](posts/portfolio/eksamensfremlaeggelse/) 

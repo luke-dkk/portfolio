@@ -10,4 +10,7 @@ identifier = "A0lmYL8D8B"
 weight = 9_999
 
 [[footer]]
-none = "none"
+name = "GitHub"
+url = "https://github.com/luke-dkk"
+pre = "github"
+weight = 10
