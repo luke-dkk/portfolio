@@ -49,6 +49,7 @@ jobs:
             Authorization: `Bearer ${process.env.DIFY_API_KEY}`,
             'Content-Type': 'application/json'
           };
+          const wait = milliseconds => new Promise(resolve => setTimeout(resolve, milliseconds));
 
           async function request(url, options) {
             const response = await fetch(url, options);
@@ -91,5 +92,7 @@ jobs:
               })
             });
             console.log(`${existing ? 'Updated' : 'Created'}: ${name}`);
+            // Dify Cloud limits Knowledge Base API requests on this subscription.
+            await wait(7000);
           }
           NODE
