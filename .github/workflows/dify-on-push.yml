@@ -58,12 +58,25 @@ jobs:
           }
 
           for (const file of markdownFiles) {
-            const name = relative(process.cwd(), resolve(file)).replaceAll('\\', '/');
+            const sourcePath = relative(process.cwd(), resolve(file)).replaceAll('\\', '/');
+            const fileName = sourcePath.split('/').pop();
+            const lastDot = fileName.lastIndexOf('.');
+            const baseName = fileName.slice(0, lastDot);
+            const extension = fileName.slice(lastDot);
+            const folder = sourcePath
+              .split('/')
+              .slice(0, -1)
+              .join('/')
+              .replace(/^content\/posts\/?/, '');
+            const name = folder ? `${baseName} (${folder})${extension}` : fileName;
+
             const documents = await request(
-              `${datasetUrl}/documents?keyword=${encodeURIComponent(name)}&limit=100`,
+              `${datasetUrl}/documents?keyword=${encodeURIComponent(fileName)}&limit=100`,
               { headers }
             );
-            const existing = documents.data.find(document => document.name === name);
+            const existing = documents.data.find(
+              document => document.name === name || document.name === sourcePath
+            );
             const url = existing
               ? `${datasetUrl}/documents/${existing.id}/update-by-text`
               : `${datasetUrl}/document/create-by-text`;
