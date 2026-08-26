@@ -10,7 +10,7 @@ series_order: 2
 authors:
   - Luke Burup Persson
 ---
-# Uge 1 
+# Uge 1  
 ## Indledning 
 [uge 1]({{< ref "week_one.md" >}})
 I den første uge af projektet har fokus været på at etablere et metodisk fundament for arbejdet.  
