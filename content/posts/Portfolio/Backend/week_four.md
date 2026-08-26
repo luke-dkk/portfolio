@@ -13,7 +13,7 @@ authors:
 
 # Uge 4 – JSON, DTO og arbejde med eksterne data
 
-## Indledning 
+## Indledning
 
 I denne uge har fokus været på data – ikke bare hvordan det gemmes, men hvordan det bevæger sig gennem systemet.
 
