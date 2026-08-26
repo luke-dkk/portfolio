@@ -11,7 +11,7 @@ authors:
   - Luke Burup Persson, Frederik Edvardsen
 ---
 
-# Uge 1 – React og JavaScript 
+# Uge 1 – React og JavaScript  
 
 ## Indledning
 

@@ -13,7 +13,7 @@ authors:
 
 # Uge 2 – React II
  
-# Indledning
+# Indledning 
 
 I uge 2 arbejdede vi videre med React og frontend-udvikling i forbindelse med projektet *Find en Legeplads*. Fokus i denne uge var at opbygge en mere dynamisk Single Page Application (SPA) gennem brug af flere komponenter, state management og interaktivitet i brugergrænsefladen.
 

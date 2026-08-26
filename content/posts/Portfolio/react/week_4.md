@@ -12,7 +12,7 @@ authors:
 ---
 
 # Uge 4 – React IV 
-
+  
 # Indledning
 
 I uge 4 arbejdede vi med styling, arkitektur og deployment af frontend-applikationen til *Find en Legeplads*. Efter de foregående ugers fokus på komponenter, state management, routing og sikkerhed var målet nu at samle applikationen til en mere færdig og brugervenlig løsning.

@@ -13,7 +13,7 @@ authors:
 
 # Uge 3 – React III 
 
-# Indledning
+# Indledning 
 
 I uge 3 arbejdede vi videre med udviklingen af frontend-applikationen til *Find en Legeplads* med fokus på routing, sikkerhed og beskyttelse af brugerdata i React. Formålet med denne uge var at skabe en mere professionel Single Page Application (SPA), hvor brugeren kunne navigere mellem forskellige sider, logge ind og få adgang til beskyttede funktioner.
 
