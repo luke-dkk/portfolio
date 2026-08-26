@@ -17,7 +17,7 @@ tags:
 title: Uge 6 - Security, JWT og password hashing
 ---
 
-# Uge 6 -- Security, JWT og håndtering af brugerdata
+# Uge 6 -- Security, JWT og håndtering af brugerdata 
 
 ## Indledning
 

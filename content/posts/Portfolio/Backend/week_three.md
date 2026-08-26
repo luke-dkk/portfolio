@@ -11,7 +11,7 @@ authors:
   - Luke Burup Persson
 ---
 
-# Uge 3 – JPA relationer og udvidelse af datamodellen
+# Uge 3 – JPA relationer og udvidelse af datamodellen 
 
 ## Indledning
 

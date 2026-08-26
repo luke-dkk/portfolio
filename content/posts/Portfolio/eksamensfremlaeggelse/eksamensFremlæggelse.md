@@ -19,4 +19,4 @@ udover dette, er mine tanker at jeg vil berøre:
 
 [Uge 2 – Introduktion til JPA og første entity]({{< ref "week_two.md" >}})
 [Uge 5 – Javalin, REST og struktur af API]({{< ref "week_five.md" >}})
-[Uge 6 - Security, JWT og password hashing]({{< ref "week_six.md" >}})
+[Uge 6 - Security, JWT og password hashing]({{< ref "week_six.md" >}}) 

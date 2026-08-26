@@ -11,7 +11,7 @@ authors:
   - Luke Burup Persson
 ---
 
-# Semistruktureret interview med Mikkel
+# Semistruktureret interview med Mikkel 
 
 **Forskningsspørgsmål:**  
 Hvordan ville en “find en legeplads”-applikation bedst fungere for en forælder?

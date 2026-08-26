@@ -11,7 +11,7 @@ authors:
   - Luke Burup Persson
 ---
 # Uge 1
-## Indledning
+## Indledning 
 I den første uge af projektet har fokus været på at etablere et metodisk fundament for arbejdet.  
 Da projektet både fungerer som et udviklingsprojekt og en portfolio, er der blevet taget udgangspunkt i SMTTE-modellen som didaktisk styringsværktøj.
 

@@ -113,7 +113,7 @@ Derudover arbejdede vi med følgende problemstillinger:
 - Hvordan opbygges protected routes?
 - Hvordan håndteres login og JWT tokens i frontend?
 - Hvordan deles brugerinformation gennem Context API?
-- Hvordan sikres navigation mellem offentlige og beskyttede sider?
+- Hvordan sikres navigation mellem offentlige og beskyttede sider? 
 
 ---
 

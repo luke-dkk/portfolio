@@ -13,7 +13,7 @@ authors:
 
 # Uge 5 – Javalin, REST og struktur af API
 
-## Indledning
+## Indledning 
 
 I denne uge har fokus været på at arbejde med REST og opbygningen af mit API gennem Javalin.
 

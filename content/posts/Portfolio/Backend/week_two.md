@@ -10,7 +10,7 @@ series_order: 4
 authors:
   - Luke Burup Persson
 ---
-# Uge 2 – Introduktion til JPA og første entity
+# Uge 2 – Introduktion til JPA og første entity 
 
 ## Indledning
 

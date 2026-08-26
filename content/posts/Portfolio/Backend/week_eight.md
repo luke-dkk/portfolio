@@ -12,7 +12,7 @@ authors:
 ---
 
 # Uge 8 -- Deployment, Docker og hvordan mit system faktisk kører
-
+ 
 ## Indledning
 
 I denne uge har fokus været på deployment af min applikation.

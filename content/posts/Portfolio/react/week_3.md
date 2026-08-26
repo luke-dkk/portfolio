@@ -11,7 +11,7 @@ authors:
   - Luke Burup Persson, Frederik Edvardsen
 ---
 
-# Uge 3 – React III
+# Uge 3 – React III 
 
 # Indledning
 
