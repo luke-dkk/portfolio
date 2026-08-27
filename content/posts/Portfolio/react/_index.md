@@ -4,12 +4,12 @@ title: "React"
 
 # Uger
 
-- [samlet](posts/portfolio/React/all_together.md)
+- [samlet](/posts/portfolio/react/all_together/)
 
-- [uge 1](posts/portfolio/React/Week_1.md)
+- [uge 1](/posts/portfolio/react/week_1/)
 
-- [uge 2](posts/portfolio/React/Week_2.md)
+- [uge 2](/posts/portfolio/react/week_2/)
 
-- [uge 3](posts/portfolio/React/week_3.md)
+- [uge 3](/posts/portfolio/react/week_3/)
 
-- [uge 4](posts/portfolio/React/week_4.md) 
+- [uge 4](/posts/portfolio/react/week_4/)

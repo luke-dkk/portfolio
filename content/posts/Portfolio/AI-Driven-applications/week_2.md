@@ -45,29 +45,57 @@ Jeg arbejdede også med `extend-footer.html`, som er en udvidelse af sidens foot
 
 ## Workflowet
 
-Den samlede idé kan beskrives sådan:
+Jeg har i praksis to separate workflows. De skal ikke forstås som ét langt lineært flow. Det ene workflow synkroniserer portfolio-indholdet til Dify, og det andet bygger og deployer selve Hugo-siden.
+
+### 1. Synkronisering af posts til Dify
 
 ```text
-Push til GitHub
-      |
-      v
-GitHub Action – synkroniser posts til Dify
-      |
-      v
-Dify API <-------------- DIFY_BASE_URL, DIFY_API_KEY, DIFY_DATASET_ID
-      |
-      +--> Jina AI – chunking af indhold
-      |
-      +--> OpenAI – LLM, der behandler forespørgsler og genererer svar
-      |
-      v
-GitHub Actions – build og deploy af Hugo-siden
-      |
-      v
+On push
+   |
+   v
+GitHub Action – Sync posts to Dify
+   |
+   v
+Dify API
+   |
+   v
+DIFY.AI
+   |
+   +--> OpenAI (LLM)
+   |
+   +--> Jina AI (chunking)
+```
+
+GitHub Actions-workflowet bruger secrets og variabler til at kunne kommunikere med Dify API:
+
+```text
+Secrets / variables
+   |- DIFY_BASE_URL
+   |- DIFY_API_KEY
+   `- DIFY_DATASET_ID
+```
+
+De tre værdier bruges af workflowet, men er ikke en del af den offentlige kode. Dify bruger derefter OpenAI til sprogmodellen og Jina AI til at opdele materialet i mindre tekststykker.
+
+### 2. Build og deployment af Hugo-siden
+
+```text
+On push
+   |
+   v
+GitHub Actions – Build and deploy
+   |
+   v
+Build Hugo Site
+   |
+   v
+Deploy to GitHub Pages
+   |
+   v
 GitHub Pages
 ```
 
-Der er dermed to relaterede processer. Den ene synkroniserer portfolio-indholdet med Dify, mens den anden bygger og deployer selve Hugo-siden til GitHub Pages. Det gør det muligt at behandle portfolioen som både dokumentation og datagrundlag for AI-applikationen.
+Det betyder, at Dify-synkroniseringen og publiceringen af portfolioen er to separate processer. De starter begge ved et push, men har forskellige formål og destinationer.
 
 ## SMTTE-model
 
