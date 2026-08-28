@@ -1,7 +1,7 @@
 ---
 title: React part III - Routing, Security, and Deployment
 categories: ["projects", "ideas"]
-tags: ["legeplads", "java", "webapp"]
+tags: ["react", "routing", "security", "jwt", "deployment"]
 date: 2026-05-08
 draft: false
 showauthor: true

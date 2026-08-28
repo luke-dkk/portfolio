@@ -1,7 +1,7 @@
 ---
 title: Uge 5 - Javalin, REST og API design
 categories: ["projects", "ideas"]
-tags: ["legeplads", "java", "webapp"]
+tags: ["java", "javalin", "rest-api", "api-design"]
 date: 2026-03-06
 draft: false
 showauthor: true

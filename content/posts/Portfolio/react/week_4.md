@@ -1,7 +1,7 @@
 ---
 title: React part IV - Styling and Deployment
 categories: ["projects", "ideas"]
-tags: ["legeplads", "java", "webapp"]
+tags: ["react", "css", "flexbox", "deployment", "caddy"]
 date: 2026-06-05
 draft: false
 showauthor: true

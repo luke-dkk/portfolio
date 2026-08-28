@@ -7,34 +7,184 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Luke</copyright>
-    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Java</title>
-      <link>http://localhost:1313/tags/java/</link>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <title>Ai</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/java/</guid>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Legeplads</title>
-      <link>http://localhost:1313/tags/legeplads/</link>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <title>Ai-Agents</title>
+      <link>http://localhost:1313/tags/ai-agents/</link>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/legeplads/</guid>
+      <guid>http://localhost:1313/tags/ai-agents/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Webapp</title>
-      <link>http://localhost:1313/tags/webapp/</link>
+      <title>Planning</title>
+      <link>http://localhost:1313/tags/planning/</link>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/planning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sandboxing</title>
+      <link>http://localhost:1313/tags/sandboxing/</link>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/sandboxing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>http://localhost:1313/tags/search/</link>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/search/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>http://localhost:1313/tags/tags/</link>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/tags/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Dify</title>
+      <link>http://localhost:1313/tags/dify/</link>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/dify/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Github-Actions</title>
+      <link>http://localhost:1313/tags/github-actions/</link>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/github-actions/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Openai</title>
+      <link>http://localhost:1313/tags/openai/</link>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/openai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Rag</title>
+      <link>http://localhost:1313/tags/rag/</link>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/rag/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Caddy</title>
+      <link>http://localhost:1313/tags/caddy/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/webapp/</guid>
+      <guid>http://localhost:1313/tags/caddy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Css</title>
+      <link>http://localhost:1313/tags/css/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/css/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Deployment</title>
+      <link>http://localhost:1313/tags/deployment/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/deployment/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Flexbox</title>
+      <link>http://localhost:1313/tags/flexbox/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/flexbox/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>http://localhost:1313/tags/react/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/react/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Jwt</title>
+      <link>http://localhost:1313/tags/jwt/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/jwt/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Routing</title>
+      <link>http://localhost:1313/tags/routing/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/routing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/tags/security/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/security/</guid>
       <description></description>
       
     </item>
@@ -50,11 +200,321 @@
     </item>
     
     <item>
-      <title>React</title>
-      <link>http://localhost:1313/tags/react/</link>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <title>Components</title>
+      <link>http://localhost:1313/tags/components/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/react/</guid>
+      <guid>http://localhost:1313/tags/components/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>http://localhost:1313/tags/javascript/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/javascript/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Spa</title>
+      <link>http://localhost:1313/tags/spa/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/spa/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>State-Management</title>
+      <link>http://localhost:1313/tags/state-management/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/state-management/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Api-Integration</title>
+      <link>http://localhost:1313/tags/api-integration/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/api-integration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Api-Testing</title>
+      <link>http://localhost:1313/tags/api-testing/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/api-testing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/tags/java/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/java/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Rest-Assured</title>
+      <link>http://localhost:1313/tags/rest-assured/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/rest-assured/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>http://localhost:1313/tags/testing/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/testing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Password-Hashing</title>
+      <link>http://localhost:1313/tags/password-hashing/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/password-hashing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Api-Design</title>
+      <link>http://localhost:1313/tags/api-design/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/api-design/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:1313/tags/docker/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/docker/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Javalin</title>
+      <link>http://localhost:1313/tags/javalin/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/javalin/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Rest-Api</title>
+      <link>http://localhost:1313/tags/rest-api/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/rest-api/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Reverse-Proxy</title>
+      <link>http://localhost:1313/tags/reverse-proxy/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/reverse-proxy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Dto</title>
+      <link>http://localhost:1313/tags/dto/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/dto/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Json</title>
+      <link>http://localhost:1313/tags/json/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/json/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Database-Design</title>
+      <link>http://localhost:1313/tags/database-design/</link>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/database-design/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Jpa</title>
+      <link>http://localhost:1313/tags/jpa/</link>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/jpa/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Orm</title>
+      <link>http://localhost:1313/tags/orm/</link>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/orm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Crud</title>
+      <link>http://localhost:1313/tags/crud/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/crud/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interview</title>
+      <link>http://localhost:1313/tags/interview/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/interview/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Legeplads</title>
+      <link>http://localhost:1313/tags/legeplads/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/legeplads/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Lombok</title>
+      <link>http://localhost:1313/tags/lombok/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/lombok/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>http://localhost:1313/tags/portfolio/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/portfolio/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Project-Management</title>
+      <link>http://localhost:1313/tags/project-management/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/project-management/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Reflection</title>
+      <link>http://localhost:1313/tags/reflection/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/reflection/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>http://localhost:1313/tags/requirements/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/requirements/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>User-Research</title>
+      <link>http://localhost:1313/tags/user-research/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/user-research/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Webapp</title>
+      <link>http://localhost:1313/tags/webapp/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/webapp/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Exam</title>
+      <link>http://localhost:1313/tags/exam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/exam/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Presentation</title>
+      <link>http://localhost:1313/tags/presentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/presentation/</guid>
       <description></description>
       
     </item>

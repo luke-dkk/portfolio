@@ -1,7 +1,7 @@
 ---
 title: Find en legeplads introduktion
 categories: ["projects", "ideas"]
-tags: ["legeplads", "java", "webapp"]
+tags: ["java", "requirements"]
 date: 2026-02-06
 draft: false
 showauthor: true

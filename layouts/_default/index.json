@@ -1,0 +1,7 @@
+{{- $index := slice -}}
+{{- range where site.RegularPages "Section" "posts" -}}
+  {{- if not .Draft -}}
+    {{- $index = $index | append (dict "date" (.Date | time.Format (.Site.Language.Params.dateFormat | default ":date_long")) "title" (.Title | emojify | safeJS) "section" (.Section | title | emojify | safeJS) "summary" (.Summary | plainify | htmlUnescape | safeJS) "content" (.Plain | safeJS) "tags" (.Params.tags | default (slice)) "permalink" .RelPermalink "externalUrl" .Params.externalUrl "type" .Type) -}}
+  {{- end -}}
+{{- end -}}
+{{- $index | jsonify -}}

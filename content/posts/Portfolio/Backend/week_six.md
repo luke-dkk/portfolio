@@ -10,10 +10,8 @@ series:
 - Find en Legeplads
 series_order: 8
 showauthor: true
-tags:
-- legeplads
-- java
-- webapp
+tags: ["java", "security", "jwt", "password-hashing"]
+
 title: Uge 6 - Security, JWT og password hashing
 ---
 

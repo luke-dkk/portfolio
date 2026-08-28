@@ -1,7 +1,7 @@
 ---
 title: JS and React
 categories: ["projects", "ideas"]
-tags: ["legeplads", "java", "webapp"]
+tags: ["react", "javascript", "frontend", "api-integration"]
 date: 2026-04-24
 draft: false
 showauthor: true

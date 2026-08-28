@@ -1,7 +1,7 @@
 ---
 title: Uge 8 - Deployment, Docker og reverse proxy
 categories: ["projects", "ideas"]
-tags: ["legeplads", "java", "webapp"]
+tags: ["java", "deployment", "docker", "reverse-proxy"]
 date: 2026-03-06
 draft: false
 showauthor: true

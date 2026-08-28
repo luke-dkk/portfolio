@@ -1,6 +1,7 @@
 ---
 title: Eksamenspræsentation
 categories: ["eksamen", "fremlæggelse"]
+tags: ["exam", "presentation", "jpa", "api-design", "security"]
 ---
 [uge 3]({{< ref "week_three.md" >}})
 

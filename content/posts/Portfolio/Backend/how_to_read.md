@@ -1,7 +1,7 @@
 ---
 title: Sådan læses portfolio-opgaven
 categories: ["projects", "ideas"]
-tags: ["legeplads", "java", "webapp"]
+tags: ["portfolio", "project-management", "reflection"]
 date: 2026-02-06
 draft: false
 showauthor: true

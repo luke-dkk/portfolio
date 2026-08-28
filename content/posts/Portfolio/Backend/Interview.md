@@ -1,7 +1,7 @@
 ---
 title: Interview Mikkel
 categories: ["projects", "ideas"]
-tags: ["legeplads", "java", "webapp"]
+tags: ["user-research", "interview", "requirements"]
 date: 2026-02-06
 draft: false
 showauthor: true

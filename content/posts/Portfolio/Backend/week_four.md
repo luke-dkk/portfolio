@@ -1,7 +1,7 @@
 ---
 title: Uge 4 - JSON, DTO og API
 categories: ["projects", "ideas"]
-tags: ["legeplads", "java", "webapp"]
+tags: ["java", "json", "dto", "rest-api"]
 date: 2026-02-20
 draft: false
 showauthor: true

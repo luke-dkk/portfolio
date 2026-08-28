@@ -1,7 +1,7 @@
 ---
 title: Introduktion til JPA og første entitet
 categories: ["projects", "ideas"]
-tags: ["legeplads", "java", "webapp"]
+tags: ["java", "jpa", "orm", "lombok", "crud"]
 date: 2026-02-06
 draft: false
 showauthor: true

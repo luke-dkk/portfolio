@@ -1,7 +1,7 @@
 ---
 title: Samlet indledning, problemformulering og konklusion – React
 categories: ["projects", "ideas"]
-tags: ["react", "frontend", "webapp"]
+tags: ["react", "frontend"]
 date: 2026-05-06
 draft: false
 showauthor: true

@@ -1,7 +1,7 @@
 ---
 title: Uge 3 - JPA relationer
 categories: ["projects", "ideas"]
-tags: ["legeplads", "java", "webapp"]
+tags: ["java", "jpa", "orm", "database-design"]
 date: 2026-02-13
 draft: false
 showauthor: true

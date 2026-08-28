@@ -10,10 +10,7 @@ series:
 - Find en Legeplads
 series_order: 9
 showauthor: true
-tags:
-- legeplads
-- java
-- webapp
+tags: ["java", "api-testing", "rest-assured", "testing"]
 title: Uge 7 - Test af API med Rest Assured
 ---
 
