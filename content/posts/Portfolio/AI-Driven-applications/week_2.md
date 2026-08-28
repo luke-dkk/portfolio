@@ -63,7 +63,7 @@ DIFY.AI
    |
    +--> OpenAI (LLM)
    |
-   +--> Jina AI (chunking)
+   +--> Jina AI (chunking) 
 ```
 
 GitHub Actions-workflowet bruger secrets og variabler til at kunne kommunikere med Dify API:
