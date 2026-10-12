@@ -37,7 +37,7 @@ Jeg oprettede workflowet `dify-on-push.yml`. Workflowet starter ved et push og b
 
 - `DIFY_BASE_URL`
 - `DIFY_API_KEY`
-- `DIFY_DATASET_ID` 
+- `DIFY_DATASET_ID`
 
 API-nøglen og de øvrige værdier skal ligge som GitHub Secrets eller repository-variabler. De bør ikke skrives direkte ind i workflowet eller frontend-koden.
 
