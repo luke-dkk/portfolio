@@ -31,6 +31,16 @@ Jeg undersøger især:
 - hvordan agenter kan bruge specifikationen som kontekst før planlægning og kodning
 - hvilke fordele og begrænsninger der følger med en specifikationsdrevet tilgang
 
+## Metodeafgrænsning
+
+I akademisk arbejde er det vigtigt at skelne mellem, hvad man undersøger, og hvordan man undersøger det. Den første del handler om emnets indhold og afgrænsning. Metodeafgrænsningen handler om den fremgangsmåde, man bruger til at udvikle, undersøge og vurdere resultatet.
+
+I SDD betyder det, at specifikationen ikke kun beskriver, hvad der skal bygges. Den beskriver også den metode, som projektet skal følge. I vores tilgang bruges `/grill-me` til discovery og kravsafdækning, user stories til at beskrive brugerbehov, implementation decisions til at dokumentere tekniske valg og testing decisions til at definere, hvordan kravene skal verificeres.
+
+Metodeafgrænsningen omfatter også projektets out-of-scope-områder. De gør det tydeligt, hvad der ikke skal implementeres i den aktuelle version, og beskytter projektet mod ukontrolleret scope creep. Samtidig er metoden iterativ. Problemformuleringen kan blive opdateret, når implementationen giver ny viden, men ændringerne skal dokumenteres, så projektets overordnede retning stadig er synlig.
+
+Agenten kan støtte processen med analyse, planlægning og implementation, men menneskeligt review er stadig en del af metoden. Udvikleren skal vurdere, om kravene er forstået korrekt, om agentens ændringer følger specifikationen, og om tests faktisk viser, at resultatet opfylder målet.
+
 ## Hvad er Spec-driven development?
 
 Spec-driven development betyder, at man begynder med at formulere, hvad der skal bygges, hvorfor det skal bygges, og hvordan man kan afgøre, om resultatet er korrekt. Specifikationen fungerer som et fælles referencepunkt for udvikleren, agenten og andre, der skal forstå eller reviewe løsningen.
