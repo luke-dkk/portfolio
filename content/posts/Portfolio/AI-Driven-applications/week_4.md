@@ -1,5 +1,5 @@
 ---
-title: "Uge 4 – Sikker udvikling med secrets, agenter og miljøer"
+title: "Uge 3 og 4 – Sikker udvikling med secrets, agenter og miljøer"
 categories: ["projects", "ideas"]
 tags: ["ai", "ai-agents", "security", "secrets", "azure", "development"]
 date: 2026-10-12
@@ -11,7 +11,7 @@ authors:
   - Luke Burup Persson
 ---
 
-# Uge 4 – Sikker udvikling med secrets, agenter og miljøer
+# Uge 3 og 4 – Sikker udvikling med secrets, agenter og miljøer
 
 ## Indledning
 
