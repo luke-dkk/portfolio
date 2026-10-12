@@ -40,7 +40,9 @@ jobs:
             ? git('ls-files', 'content/posts')
             : git('diff', '--name-only', '--diff-filter=ACMR', process.env.BEFORE_SHA, process.env.CURRENT_SHA, '--', 'content/posts');
 
-          const markdownFiles = files.filter(file => file.endsWith('.md'));
+          const markdownFiles = files.filter(
+            file => file.endsWith('.md') && !file.endsWith('_notes.md')
+          );
           if (!markdownFiles.length) process.exit(0);
 
           const baseUrl = process.env.DIFY_BASE_URL.replace(/\/$/, '');
