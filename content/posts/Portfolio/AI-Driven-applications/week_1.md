@@ -44,3 +44,4 @@ AI er et bredt område, hvor systemer forsøger at udføre opgaver, der kræver 
 En assistent hjælper primært ved at give svar, forklaringer og forslag. En agent kan arbejde videre fra målet, planlægge en flertrinsopgave, bruge tools, ændre filer, køre tests og evaluere resultatet. Forskellen ligger derfor især i graden af selvstændig handling og ansvar.
 
 Jo mere selvstændigt en agent arbejder, desto vigtigere er menneskeligt review, sandboxing og klare tilladelser. Agenten kan udføre arbejdet hurtigere, men udvikleren har stadig ansvaret for resultatet.
+ 
