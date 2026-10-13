@@ -92,3 +92,15 @@ Fokus var på slices, acceptkriterier, Definition of Done, blockers, dokumentati
 Scrum kan understøtte udvikling med AI-agenter ved at skabe koordinering og fælles retning. Acceptkriterier, Definition of Done, blockers, dokumentation, stand-ups og uafhængigt review gjorde det muligt at koordinere parallelle frontend-, backend- og database-slices.
 
 Agentic development øger behovet for projektstyring. AI kan hjælpe med at skrive koden, men Scrum hjælper teamet med at vide, hvilken kode der skal skrives, hvorfor den skal skrives, og hvornår den reelt er færdig.
+
+## Uge 8 – Working trees og uafhængige kritiske stier
+
+[Læs hele uge 8-indlægget]({{< ref "week_8.md" >}})
+
+### Problemformulering
+
+Hvordan kan Git working trees bruges til at organisere parallel udvikling på en kritisk sti, så flere slices kan arbejde uafhængigt uden at skabe unødvendige konflikter?
+
+### Konklusion
+
+Working trees kan reducere risikoen for, at parallelle slices ændrer de samme filer, og gøre det muligt for flere udviklere eller AI-agenter at arbejde samtidig. De fjerner dog ikke logiske afhængigheder mellem API'er, modeller og fælles domæneregler. Derfor skal fysisk isolation kombineres med SDD, Scrum, tests, dokumentation og review.
