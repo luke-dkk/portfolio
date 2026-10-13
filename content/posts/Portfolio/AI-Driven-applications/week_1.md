@@ -1,7 +1,7 @@
 ---
-title: "Uge 1 – Hvad er AI, tools og agents?"
+title: "Uge 1 – Forskellen på en agent og en assistent"
 categories: ["projects", "ideas"]
-tags: ["ai", "ai-agents", "tools", "llm"]
+tags: ["ai", "ai-agents", "llm"]
 date: 2026-10-13
 draft: false
 showauthor: true
@@ -11,7 +11,7 @@ authors:
   - Luke Burup Persson
 ---
 
-# Uge 1 – Hvad er AI, tools og agents?
+# Uge 1 – Forskellen på en agent og en assistent
 
 ## Hvad er AI?
 
@@ -19,26 +19,28 @@ AI, eller kunstig intelligens, er systemer, der kan udføre opgaver, som normalt
 
 I denne serie fokuserer jeg især på generativ AI og store sprogmodeller. En LLM kan fortolke en opgave, arbejde med tekst og generere et svar, men den kan også indgå som en del af et større system.
 
-## Hvad er et tool?
+## Hvad er en assistent?
 
-Et tool er et afgrænset værktøj, som et AI-system kan bruge til at udføre en bestemt handling. Det kan for eksempel være at læse en fil, søge på nettet, køre en kommando eller kalde en API.
-
-Et tool udfører normalt ikke selv en hel udviklingsopgave. Det stiller en konkret funktion til rådighed, som kan bruges af en model eller agent.
+En AI-assistent hjælper primært med at svare, forklare og foreslå. Den kan for eksempel forklare en fejl, foreslå en kodeændring eller hjælpe med at formulere en plan. Assistenten giver typisk et svar, hvorefter brugeren selv vurderer, hvad der skal ske, og udfører de næste handlinger.
 
 ## Hvad er en agent?
 
-En agent er et system, der kan arbejde mere selvstændigt mod et mål. Agenten kan fortolke opgaven, planlægge flere trin, vælge relevante tools, udføre handlinger og vurdere resultatet undervejs.
+En agent kan arbejde mere selvstændigt mod et mål. Den kan fortolke opgaven, planlægge flere trin, vælge relevante tools, udføre handlinger og evaluere resultatet undervejs.
 
-Forskellen er derfor, at et tool typisk udfører én afgrænset handling, mens en agent kan kombinere flere tools i et længere arbejdsflow. LLM'en kan fungere som den model, der fortolker opgaven og hjælper med beslutningerne, mens tools udfører de konkrete handlinger.
+Tools er her afgrænsede hjælpemidler, som både assistants og agents kan bruge. Et tool kan for eksempel læse en fil, søge på nettet, køre en kommando eller kalde en API. Forskellen er, at agenten kan kombinere flere tools i et længere arbejdsflow.
 
-## Forskellen mellem tools og agents
+## Forskellen mellem en agent og en assistent
 
-Et tool kan sammenlignes med en hammer eller en lommeregner: Det har en bestemt funktion. En agent kan sammenlignes med en person, der vurderer, hvilket værktøj der skal bruges, i hvilken rækkefølge, og hvordan man kan se, om resultatet er godt nok.
+Den vigtigste forskel handler om graden af selvstændighed, handling og ansvar. En assistent reagerer typisk på brugerens spørgsmål og overlader de konkrete handlinger til brugeren. En agent kan selv planlægge og udføre flere trin for at nå et mål.
 
-En agent har derfor et højere ansvarsniveau end et isoleret tool. Den kan læse projektfiler, ændre kode eller køre kommandoer, og derfor skal den arbejde med klare tilladelser og afgrænsninger.
+I softwareudvikling kan en assistent foreslå kode eller forklare, hvorfor en fejl opstår. En agent kan derimod undersøge repositoryet, ændre relevante filer, køre tests og rapportere resultatet tilbage til udvikleren.
+
+Det betyder ikke, at agenten skal have ubegrænset adgang. Jo flere handlinger agenten kan udføre, desto vigtigere bliver menneskeligt review, sandboxing og klare tilladelser. Udvikleren skal stadig kontrollere, om agenten løste det rigtige problem, om ændringerne er sikre, og om testresultaterne er tilstrækkelige.
 
 ## Konklusion
 
-AI er et bredt område, hvor systemer forsøger at udføre opgaver, der kræver problemløsning eller vurdering. En LLM kan forstå og generere tekst, et tool kan udføre en afgrænset handling, og en agent kan planlægge og kombinere flere handlinger for at nå et mål.
+AI er et bredt område, hvor systemer forsøger at udføre opgaver, der kræver problemløsning eller vurdering. En LLM kan forstå og generere tekst, mens tools kan give et AI-system adgang til afgrænsede handlinger.
 
-Det er vigtigt at skelne mellem disse begreber, fordi en agent kan have adgang til flere tools og dermed påvirke et projekt direkte. Menneskeligt review, tydelige tilladelser og sikre udviklingsmiljøer er derfor nødvendige, også når agenten kan arbejde hurtigt.
+En assistent hjælper primært ved at give svar, forklaringer og forslag. En agent kan arbejde videre fra målet, planlægge en flertrinsopgave, bruge tools, ændre filer, køre tests og evaluere resultatet. Forskellen ligger derfor især i graden af selvstændig handling og ansvar.
+
+Jo mere selvstændigt en agent arbejder, desto vigtigere er menneskeligt review, sandboxing og klare tilladelser. Agenten kan udføre arbejdet hurtigere, men udvikleren har stadig ansvaret for resultatet.
