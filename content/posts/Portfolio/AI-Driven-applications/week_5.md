@@ -116,3 +116,4 @@ Samtidig er softwareudvikling mere iterativ end en færdig akademisk tekst. Prob
 Spec-driven development kan ses som en metode, hvor udviklingen begynder med en eksplicit specifikation og fortsætter gennem planlægning, implementation, test og review. Perspektiveret til akademisk læsning kan abstractet sammenlignes med projektets overordnede mål, problemformuleringen med de aktuelle krav og konklusionen med det forventede eller opnåede resultat.
 
 Problemformuleringen behøver ikke at være statisk. Den kan ændre sig iterativt, når implementationen giver ny viden, så længe ændringerne dokumenteres, og projektets overordnede retning bevares. På den måde bliver både akademisk læsning og SDD en bevægelse mellem helhed, problem, analyse og konklusion.
+ 
