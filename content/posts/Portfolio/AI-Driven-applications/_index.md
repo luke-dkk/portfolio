@@ -2,8 +2,6 @@
 title: "AI Driven applications"
 ---
 
-# AI Driven applications
-
 Denne serie består af 10 uger, hvor jeg undersøger, hvordan AI kan bruges som en del af praktiske applikationer og udviklingsworkflows.
 
 - [Samlet problemformulering og konklusion](/posts/portfolio/ai-driven-applications/all_together/)
